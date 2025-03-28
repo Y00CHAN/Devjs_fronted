@@ -14,7 +14,7 @@
   
   .welcome {
     font-size: 18px;
-    color: #555;
+    color: #c5c3d9;
     margin-bottom: 30px;
   }
   
@@ -44,7 +44,7 @@
   }
   
   .job-table th {
-    color: #444;
+    color: #fdfdfd;
     font-weight: 600;
   }
   
@@ -68,7 +68,7 @@
   .see-more {
     margin-top: 15px;
     font-weight: 500;
-    color: #333;
+    color: #dcd7d7;
     cursor: pointer;
   }
   
