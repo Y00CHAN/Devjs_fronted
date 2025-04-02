@@ -1,6 +1,6 @@
 // src/pages/Upload.jsx
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // ✅ 추가
+import { Link } from 'react-router-dom';
 import '../assets/Upload.css';
 
 function Upload() {
@@ -32,7 +32,7 @@ function Upload() {
 
   return (
     <div className="upload-wrapper">
-      <Link to="/" className="upload-title">DevJS</Link> {/* ✅ 수정된 부분 */}
+      <Link to="/" className="upload-title">DevJS</Link>
       <form className="upload-form" onSubmit={handleSubmit}>
         <div className="upload-columns">
           <div className="upload-column">
