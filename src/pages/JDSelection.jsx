@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../assets/JDSelectionPage.css';
+import '../assets/JDSelection.css';
 
-const JDSelectionPage = () => {
+const JDSelection = () => {
   const navigate = useNavigate();
   const [selectedItems, setSelectedItems] = useState([]);
 
@@ -52,4 +52,4 @@ const JDSelectionPage = () => {
   );
 };
 
-export default JDSelectionPage;
+export default JDSelection;
