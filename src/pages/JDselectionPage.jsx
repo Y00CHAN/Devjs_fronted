@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../assets/JDselectionPage.css';
+import '../assets/JDSelectionPage.css';
 
 const JDSelectionPage = () => {
   const navigate = useNavigate();
