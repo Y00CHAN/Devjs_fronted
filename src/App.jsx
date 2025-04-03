@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from './pages/Dashboard';
 import Upload from './pages/Upload';
-import JDSelectionPage from './pages/JDSelectionPage';
+import JDSelectionPage from "./pages/JDSelectionPage";
 
 
 function App() {
