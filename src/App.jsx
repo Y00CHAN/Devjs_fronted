@@ -18,6 +18,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/upload" element={<Upload />} />
         <Route path='/jd' element={<JDSelection />} />
+        
       </Routes>
   
   );

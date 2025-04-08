@@ -4,8 +4,6 @@
   --gray-border: #e5e7eb;
   --gray-bg: #ffffff; 
   --gray-text: #6b7280;
-  --button-bg: #4f46e5;
-  --button-text: #ffffff;
 }
 
 body {
@@ -106,8 +104,7 @@ body {
 }
 
 .submit-button {
-  background-color: var(--button-bg);
-  color: var(--button-text);
+  background: linear-gradient(to right, #8758f1, #9678da);
   font-weight: 600;
   padding: 0.75rem 2rem;
   border: none;
@@ -117,6 +114,10 @@ body {
   margin-top: 1rem;
 }
 
+.submit-button:hover {
+  background: linear-gradient(to right, #8758f1, #a520c6);
+  box-shadow: 0px 4px 15px rgba(255, 117, 140, 0.5);
+}
 
 /* placeholder 색상 명시 설정 */
 .input-box::placeholder,
@@ -124,3 +125,4 @@ body {
   color: #9ca3af; /* 연회색 텍스트 (Tailwind의 gray-400) */
   opacity: 1;
 }
+
