@@ -1,0 +1,98 @@
+/* Login.css */
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.social-login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 280px; 
+}
+
+.social-button span{
+  margin-left: 67px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px; 
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  height: 48px; 
+}
+
+.social-button img {
+  position: absolute;
+  left: 7.5px;
+  width: 30px;   
+  height: 30px; 
+}
+
+.social-button.google {
+  background-color: #ffffff;
+  color: #444;
+  border: 1px solid #ddd;
+}
+
+.social-button.kakao {
+  background-color: #fee500;
+  color: #000000;
+}
+
+.social-button.naver {
+  background-color: #03c75a;
+  color: #ffffff;
+}
+
+.social-button.kakao span {
+  margin-left: 55px;
+}
+
+.social-button.github span {
+  margin-left: 60px;
+}
+
+.social-button.github {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.social-button.github img {
+  left: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+
+.social-button:hover {
+  opacity: 0.9;
+}
